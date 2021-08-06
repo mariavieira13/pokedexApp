@@ -124,6 +124,27 @@
   --ion-color-nuvem-shade: #36afd2;
   --ion-color-nuvem-tint: #50cdf1;
 
+  --ion-color-cinza: #a4acaf;
+  --ion-color-cinza-rgb: 164,172,175;
+  --ion-color-cinza-contrast: #000000;
+  --ion-color-cinza-contrast-rgb: 0,0,0;
+  --ion-color-cinza-shade: #90979a;
+  --ion-color-cinza-tint: #adb4b7;
+
+  --ion-color-fairy: #fdb9e9;
+  --ion-color-fairy-rgb: 253,185,233;
+  --ion-color-fairy-contrast: #000000;
+  --ion-color-fairy-contrast-rgb: 0,0,0;
+  --ion-color-fairy-shade: #dfa3cd;
+  --ion-color-fairy-tint: #fdc0eb;
+
+  --ion-color-dragon: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+  --ion-color-dragon-rgb: 83,164,207;
+  --ion-color-dragon-contrast: #ffffff;
+  --ion-color-dragon-contrast-rgb: 0,0,0;
+  --ion-color-dragon-shade: #4990b6;
+  --ion-color-dragon-tint: #64add4;
+
 }
 
 .ion-color-grass {
@@ -187,4 +208,31 @@
   --ion-color-contrast-rgb: var(--ion-color-poison-contrast-rgb);
   --ion-color-shade: var(--ion-color-poison-shade);
   --ion-color-tint: var(--ion-color-poison-tint);
+}
+
+.ion-color-cinza {
+  --ion-color-base: var(--ion-color-cinza);
+  --ion-color-base-rgb: var(--ion-color-cinza-rgb);
+  --ion-color-contrast: var(--ion-color-cinza-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-cinza-contrast-rgb);
+  --ion-color-shade: var(--ion-color-cinza-shade);
+  --ion-color-tint: var(--ion-color-cinza-tint);
+}
+
+.ion-color-fairy {
+  --ion-color-base: var(--ion-color-fairy);
+  --ion-color-base-rgb: var(--ion-color-fairy-rgb);
+  --ion-color-contrast: var(--ion-color-fairy-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-fairy-contrast-rgb);
+  --ion-color-shade: var(--ion-color-fairy-shade);
+  --ion-color-tint: var(--ion-color-fairy-tint);
+}
+
+.ion-color-dragon {
+  --ion-color-base: var(--ion-color-dragon);
+  --ion-color-base-rgb: var(--ion-color-dragon-rgb);
+  --ion-color-contrast: var(--ion-color-dragon-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-dragon-contrast-rgb);
+  --ion-color-shade: var(--ion-color-dragon-shade);
+  --ion-color-tint: var(--ion-color-dragon-tint);
 }
